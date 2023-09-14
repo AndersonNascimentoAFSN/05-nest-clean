@@ -1,0 +1,17 @@
+@baseUrl = http://localhost:3333
+
+# @name create_account
+POST {{baseUrl}}/accounts
+Content-Type: application/json
+
+{
+  "name": "Anderson Nascimento",
+  "email": "anderson.nascimento@meta.com.br",
+  "password": "123456"
+}
+
+###
+
+# @name fetch_account
+GET {{baseUrl}}/accounts
+Content-Type: application/json
