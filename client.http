@@ -15,3 +15,14 @@ Content-Type: application/json
 # @name fetch_account
 GET {{baseUrl}}/accounts
 Content-Type: application/json
+
+###
+
+# @name sessions
+POST {{baseUrl}}/sessions
+Content-Type: application/json
+
+{
+  "email": "anderson.nascimento@meta.com.br",
+  "password": "123456"
+}
