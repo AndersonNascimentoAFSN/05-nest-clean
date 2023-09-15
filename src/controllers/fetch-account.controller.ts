@@ -7,7 +7,7 @@ export class FetchAccountController {
   constructor(private prisma: PrismaService) {}
 
   @Get()
-  @HttpCode(201)
+  @HttpCode(200)
   async handle() {
     const users = await this.prisma.user.findMany()
 
