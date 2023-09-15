@@ -39,3 +39,10 @@ Authorization: Bearer {{authToken}}
   "title": "anderson.nascimento@meta.com.br22aa",
   "content": "123456"
 }
+
+###
+
+# @name fetch_recent_questions
+GET {{baseUrl}}/questions?page=1&perPage=2
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
