@@ -4,7 +4,6 @@ import { Test } from '@nestjs/testing'
 import request from 'supertest'
 import { faker } from '@faker-js/faker'
 import { PrismaService } from '@/prisma/prisma.service'
-import { hash } from 'bcryptjs'
 import { JwtService } from '@nestjs/jwt'
 
 describe('Create question (e2e)', () => {
