@@ -1,6 +1,6 @@
 import { Controller, Get, HttpCode } from '@nestjs/common'
 
-import { PrismaService } from '@/prisma/prisma.service'
+import { PrismaService } from '@/infra/prisma/prisma.service'
 
 @Controller('/accounts')
 export class FetchAccountController {

@@ -7,8 +7,8 @@ import {
   Query,
   UseGuards,
 } from '@nestjs/common'
-import { JwtAuthGuard } from '@/auth/jwt.auth.guard'
-import { PrismaService } from '@/prisma/prisma.service'
+import { JwtAuthGuard } from '@/infra/auth/jwt.auth.guard'
+import { PrismaService } from '@/infra/prisma/prisma.service'
 // import { ZodValidationPipe } from '@/pipes/zod-validation-pipes'
 // import { z } from 'zod'
 
